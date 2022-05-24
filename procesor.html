@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesor</title>
+    <link rel="stylesheet" href="css_styles/styl_cpu.css">
+    <link rel="icon" href="images/cpu_icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div id="title">   
+            <h1>Procesor</h1>
+        </div>
+        <div id="menu">
+            <a href="strona_glowna.html" class="btn">Główna</a>
+            <a href="procesor.html" class="btn">Procesor</a>
+            <a href="plyta_glowna.html" class="btn">Płyta główna</a>
+            <a href="pamiec_operacyjna.html" class="btn">Pamięć RAM</a>
+            <a href="karty_rozszerzen.html" class="btn">Karty rozszerzeń</a>
+            <a href="zasilacz.html" class="btn">Zasilacz</a>
+        </div>
+    </nav>
+    <div id="body_glowna">
+        <div id="main_container">
+                <h2 class="h2_pf">Procesor - co to jest?</h2>
+                <hr class="hr_pf">
+                <p class="p_pf">
+                    <b>Procesor</b>  <i>(ang. Central Processing Unit)</i> - to niewielka centralna jednostka obliczeniowa. 
+                    Jego wygląd jest bardzo charakterystyczny. 
+                    W większości przypadków jest to niewielki kwadrat, który z jednej strony zwykle ma blaszkę z nadrukowanym logo producenta, 
+                    a z drugiej sterczące i gęsto ułożone metalowe nóżki, czyli wyprowadzenia, za pomocą których procesor jest przytwierdzany do płyty głównej.
+                </p>
+                <br>
+                <section id="special_img">
+                    <img src="images/procesor_1.png" id="img_pf">
+                </section>
+                <br>
+                <p class="p_pf">
+                    Procesory składają się z kilku zaawansowanych technologicznie materiałów. 
+                    Sercem procesora jest monokryształ krzemu, na którym znajdują się warstwy z półprzewodników. 
+                    Natomiast obwody procesora wykonane są z miedzi lub aluminium. 
+                    Z tych materiałów tworzone są układy sterujące, jednostka arytmetyczna oraz zespół rejestrów. 
+                    Elementy te odpowiadają za prawidłowe (oraz wykonane w poprawnej kolejności) przetwarzanie danych.
+                </p><p class="p_pf">
+                    Procesor analizuje informacje – korzystając z szybkich, 
+                    logicznych i opartych na arytmetyce obliczeń – a następnie przesyła wyniki do pamięci komputerowych. 
+                    Posiada też własną podręczną pamięć, w której czasowo przechowuje dane, potrzebne przy przeprowadzaniu aktualnych procesów.
+                </p>
+                <h2 class="h2_pf">Jaką pełni role w komputerze?</h2>
+                <hr class="hr_pf">
+                <p class="p_pf">
+                    Procesor jest niezbędny do funkcjonowania każdego komputera. 
+                    Koordynuje on pracę pozostałych podzespołów – bez niego ich funkcjonowanie byłoby całkowicie niemożliwie. 
+                    Odpowiada także za prawidłowe przeprowadzanie procesów. 
+                    Co to oznacza? Otóż procesor „kieruje” ruchem danych i gwarantuje, że, jest on zgodny z priorytetami oraz bieżącymi potrzebami użytkownika. 
+                    Najprościej rzecz ujmując, jeśli właściciel komputera chce skorzystać z przeglądarki komputerowej, 
+                    to procesor koordynuje działaniami pozostały podzespołów, które to umożliwiają. 
+                    Podobnie jest z każdą inną czynnością wykonywaną na jednostce PC lub laptopie – począwszy od bardzo prostych rzeczy, 
+                    jak napisanie wyrazu w edytorze tekstu, po płynną pracę na zaawansowanych programach do tworzenia materiałów wideo czy audio.
+                </p>
+            
+            <section id="paragraph_second">
+                <img src="images/procesor_schemat.png" id="img2_ps">
+                <div id="list">
+                    <ul id="ul_ps">
+                        <li class="li_ps"><b>A</b> – akumulatory</li>
+                        <li class="li_ps"><b>B, C, D, E, H, L</b> – rejestry robocze</li>
+                        <li class="li_ps"><b>ALU</b> – jednostka arytmetyczno-logiczna</li>
+                    </ul><ul id="ul_ps">
+                        <li class="li_ps"><b>F</b> – rejestr flagowy</li>
+                        <li class="li_ps"><b>IR</b> – rejestr instrukcji</li>
+                        <li class="li_ps"><b>D</b> – dekoder</li>
+                    </ul><ul id="ul_ps">
+                        <li class="li_ps"><b>EU</b> – jednostka wykonawcza</li>
+                        <li class="li_ps"><b>CU</b> – jednostka sterująca</li>
+                    </ul>  
+             </div>
+            </section>
+            <section id="paragraph_thrid">
+                <h2 class="h2_pf">Parametry procesora</h2>
+                <hr class="hr_pf">
+                <p class="p_pf">
+                    <ul id="ul_pt">
+                        <li class="li_pt"><b>Częstotliwość</b></li> 
+                        <p class="p_pf">Szybkość z jaką działa CPU, która mierzona jest w gigaherzach. 
+                        Z punktu widzenia gracza jest to kluczowa wartość wpływająca na wydajność układu, im będzie ona wyższa, tym lepiej.
+                        Warto dodać, że częstotliwość pracy jest dynamiczna i procesor reguluje ją biorąc pod uwagę temperaturę oraz liczbę powierzonych mu zadań.
+                        W specyfikacjach technicznych znajdziemy więc informacje o fabrycznym taktowaniu bazowym oraz maksymalnym (turbo).</p>
+
+                        <li class="li_pt"><b>Liczba rdzeni</b></li>    
+                        <p class="p_pf">Najprościej ujmując, to liczba procesorów w procesorze. Obecnie praktycznie wszystkie CPU na rynku posiadają co najmniej cztery rdzenie. 
+                        Najdroższe modele mogą mieć ich jednak znacznie więcej (od 16 do nawet 32).
+                        Dla graczy wartość ta nie jest aż tak istotna, jak częstotliwość taktowania. 
+                        Potężne, wielordzeniowe układy rozwijają skrzydła dopiero w zastosowaniach profesjonalnych, przy dużej ilości obliczeń.</p>
+
+                        <li class="li_pt"><b>Liczba wątków</b></li>   
+                        <p class="p_pf">Dzięki wprowadzeniu technologii wielowątkowości, pojedyncze rdzenie CPU zachowują się jak dwa procesory logiczne i potrafią jednocześnie pracować nad różnymi zadaniami, co prowadzi do przyśpieszenia pracy komputera.
+                        Skala wzrostu wydajności zależy jednak w dużym stopniu od optymalizacji programu lub gry. 
+                        W tańszych i mniej wydajnych procesorach liczba posiadanych przez nie wątków odpowiada liczbie rdzeni.</p>
+
+                        <li class="li_pt"><b>Pamięć podręczna</b></li>    
+                        <p class="p_pf">Znana też jako pamięć cache. Procesor wykorzystuje ją do przechowywania często wykorzystywanych danych, którymi dzieli się z pamięcią RAM.
+                        Jej obecność zwiększa wydajność i szybkość pracy CPU.</p>
+
+                        <li class="li_pt"><b>Złącze</b></li>  
+                        <p class="p_pf">Typ łącza zamontowany na płycie głównej, który wykorzystujemy do podłączenia procesora.
+                        Jeżeli w komputerze wymieniamy jedynie CPU, będzie to parametr decydujący o wyborze konkretnego modelu, zwłaszcza w przypadku procesorów Intela.</p>
+
+                        <li class="li_pt"><b>TDP</b></li>  
+                        <p class="p_pf">Wartość mocy jaką pobiera procesor, dzięki tej informacji możemy dobrać odpowiedni zasilacz.</p>
+                    </ul>
+                </p>
+                <h2 class="h2_pf">Ciekawostka</h2>
+                <hr class="hr_pf">
+                <p class="p_pf">
+                    Najdroższy procesor na świecie to: <b>Intel Xeon Platinum 8280L</b>.
+                    <div id="div_pt">
+                        <img src="images/procesor_4.png" id="img3_ps">
+                        <p class="p_pf">
+                            <ul id="ul_ps">
+                                <li class="li_p">Częstotliwość bazowa (turbo)</li> 
+                                <p class="p_pf"><b>2,7 - 4 GHz</b></p> 
+                                <li class="li_p">Gniazdo procesora</li>
+                                <p class="p_pf"><b>LGA 3637 (Socket P)</b></p> 
+                                <li class="li_p">Liczba rdzeni / wątków</li>
+                                <p class="p_pf"><b>28 / 56</b></p> 
+                                <li class="li_p">Cena brutto</li>
+                                <p class="p_pf"><b>ok. 100,000 zł</b></p> 
+                            </ul>
+                        </p>
+                    </div>
+                </p>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div id="score">
+            <h2>Wasze oceny</h2>
+            <div id="rev">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>  
+        </div>
+        <div id="contact">
+            <h2>Kontakt</h2>
+            <a href="mailto:xxx@gmail.com"><img src="images/koperta.png" id="phone"></a>
+        </div>
+        <div id="idea">
+            <h2>Szukasz ciekawych zestawów?</h2>
+            <a target="_blank" href="https://techlipton.pl/polecane-zestawy-komputerowe/"><img src="images/loupe.png" id="lupa"></a>
+        </div>
+    </footer>
+</body>
+</html>

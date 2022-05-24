@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="PL-pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Płyta główna</title>
+    <link rel="stylesheet" href="css_styles/styl_mobo.css">
+    <link rel="icon" href="images/cpu_icon.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div id="title">   
+            <h1>Płyta główna</h1>
+        </div>
+        <div id="menu">
+            <a href="strona_glowna.html" class="btn">Główna</a>
+            <a href="procesor.html" class="btn">Procesor</a>
+            <a href="plyta_glowna.html" class="btn">Płyta główna</a>
+            <a href="pamiec_operacyjna.html" class="btn">Pamięć RAM</a>
+            <a href="karty_rozszerzen.html" class="btn">Karty rozszerzeń</a>
+            <a href="zasilacz.html" class="btn">Zasilacz</a>
+        </div>
+    </nav>
+    <div id="body_glowna">
+        <div id="main-container">
+            <section id="paragraph_first">
+                <h2 class="h2_pf">Płyta główna co to?</h2>
+                <hr class="hr_pf">
+                <p class="p_pf">
+                   <b> MotherBoard </b><i> (MOBO / płyta główna)</i> - jest podstawową częścią komputera, 
+                   która łączy ze sobą wszystkie inne podzespoły. 
+                   Od płyty głównej zależy typ o liczba możliwych 
+                   do zamontowania komponentów oraz sposób i szybkość wymiany danych pomiędzy nimi.
+                </p>
+                <br>
+                <p class="p_pf">
+                   <b>MOBO</b>  ma postać dużej płytki drukowanej, na której umieszczone są ścieżki i złącza.
+                    Ścieżki umiejscowione są w kilku warstwach płyty drukowanej, 
+                    służą do przesyłania informacji i prądu pomiędzy komponentami.
+                    Gniazda pełnią role dołków, do których wpiąć możemy karty rozszerzeń natomiast złącza służą do podpinania urządzeń peryferyjnych. 
+                    Płyta główna posiada wiele układów zintegrowanych takie jak układ dźwiękowy lub sieciowy. 
+                </p>
+                <br>
+                <p class="p_pf">
+                    W magistrali wyróżniamy <b> szynę sterującą</b>, którą przesyłane są sygnały sterujące pracą urządzeń, 
+                    <b>szynę adresową</b> służącą do przesyłania adresów komórek pamięci, 
+                    z których procesor chce czytać lub w których chce pisać, oraz <b>szynę danych,</b> 
+                    której zadaniem jest przesyłanie danych między elementami komputera.
+                </p>
+                <h2 class="h2_pf">Jak działa?</h2>
+                <hr class="hr_pf">
+                <p class="p_pf">
+                    Jednym z najważniejszych elementów płyty głównej jest <b>BIOS</b> lub <b>UEFI</b> który ma za zadanie kierować 
+                    przebiegiem urządzeń póki nie załaduje się system operacyjny. 
+                    Kości te zamontowane na płycie najczęściej w postaci flash. Mają możliwość 
+                    zapisu ustawień taktowania poszczególnych komponentów komputera, 
+                    ich napięciami oraz ich trybami pracy. 
+                </p><p class="p_pf"> 
+                    <b> Płyta główna</b> jest podstawą dla większości podzespołów komputera. 
+                    Część z nich jest zintegrowana z płytą <i> (np. chipset i bateria)</i>, 
+                    inne osadza się w gniazdach <i>(m.in. procesor, pamięć RAM i karty rozszerzeń)</i>.
+                </p><p class="p_pf">
+                    Poprowadzone na płycie głównej ścieżki pełnią rolę kanałów komunikacyjnych pomiędzy poszczególnymi układami, 
+                    a także służą do przekazywania prądu elektrycznego. 
+                    Elementami odpowiedzialnymi za zsynchronizowane działanie wszystkich komponentów jest <b> chipset</b>.
+                </p>
+                <img src="images/plyta_glowna.png" id="img1_pf">
+                <br>
+                <p class="p_pf">
+                    Na płycie głównej znajduje się chipset nazywany potocznie mostkami - <b>północny i południowy.</b>  
+                    <b>Mostek północny</b> usadowiony jest najczęściej w górnej części płyty głównej pomiędzy slotem na procesor, a gniazdem AGP/PCIe.
+                    Ma on za zadanie nadzorować wymianę informacji pomiędzy pamięcią RAM, procesorem a kartą graficzną.
+                    Mostek północny jest połączony z procesorem za pomocą magistrali FSB lub łączy Hyper Transport, 
+                    układ ten zawiera podstawowy kontroler PCIe lub AGP ( w starszych wersjach) 
+                    służący do podłączenia najczęściej kart graficznych lub urządzeń wymieniających z procesorem lub pamięcią RAM przesyłając duże ilości informacji. 
+                    </p><p class="p_pf">
+                    <b>Mostek południowy</b> pełni kontrolę nad interfejsami dysków, 
+                    wszystkimi złączami oraz niektórymi kontrolerami np. USB. 
+                    Od stabilności i jakości wykonania płyty głównej zależy wydajność całego systemu. 
+                    <br>
+                    <p class="p_pf"><b>W najnowszych płytach mostek południowy przejął role północnego,  
+                    i samodzielnie prowadzi komunikacje na płycie głównej.</b></p>
+                </p>
+                <h2 class="h2_pf">Rodzaje</h2>
+                <hr class="hr_pf">
+                </section>
+                <section id="paragraph_second">
+                    <ul>
+                        <li class="li_pf"><b>Standard ATX</b></li>
+                        <p class="p_pf">
+                            To jeden z najpopularniejszych standardów. 
+                            Płyta ATX to rozwiązanie sprawdzające się w obudowach typu Tower. 
+                            Rozmiar płyty ATX wynosi 305 x 244 mm, a to powoduje, 
+                            że płyta główna ATX jest wyposażona w dużą liczbę złączy.
+                        </p>
+                        <section class="spcecial_img">
+                            <img src="images/atx.png" class="mobo_img" >
+                        </section>
+                        <li class="li_pf"><b>Standard NLX</b></li>
+                        <p class="p_pf">
+                            Standard konstrukcji obudów i płyt głównych komputerów wprowadzony 
+                            na rynek przez firmę Intel w 1996 roku.
+                            Specyfikacja ta powstała po to, aby ułatwić montaż i demontaż 
+                            urządzeń w komputerze (np. dyski twarde montowane są na zaczepach, 
+                            a nie za pomocą śrub), a także dostęp do poszczególnych komponentów 
+                            komputera, takich jak pamięć RAM czy płyta główna.
+                            Komputery oparte na architekturze NLX są produkowane 
+                            i rozprowadzane przez dużych sprzedawców i praktycznie 
+                            nieosiągalne w obrocie detalicznym.
+                        </p>
+                        <section class="spcecial_img">
+                            <img src="images/nlx.png" class="mobo_img" >
+                        </section>
+                        <li class="li_pf"><b>Standard WTX</b></li>
+                        <p class="p_pf">
+                            Rodzaj płyty głównej stworzonej przez firmę Intel w 1998 roku.
+                            Głównym zastosowaniem płyt w standardzie WTX są serwery 
+                            i stacje robocze typu high-end często wieloprocesorowe 
+                            wyposażone w kilka twardych dysków.
+                        </p>
+                        <section class="spcecial_img">
+                            <img src="images/wtx.png" class="mobo_img" >
+                        </section>
+                        <li class="li_pf"><b>Standard ITX</b></li>
+                        <p class="p_pf">
+                            Standard ITX to typ płyty głównej promowany przez 
+                            firmę VIA Technologies od 2001 roku. 
+                            Presja i popyt rynku na urządzenia miniaturowe oraz tanie 
+                            komputery były powodem wprowadzenia przez VIA produktów w tym segmencie.
+                        </p>
+                        <section class="spcecial_img">
+                            <img src="images/itx.png" class="mobo_img" >
+                        </section>
+                        <li class="li_pf"><b>Standard BTX</b></li>
+                        <p class="p_pf">
+                            Standard konstrukcji płyt głównych oraz zasilaczy 
+                            i obudów komputerowych, który został zaproponowany 
+                            w 2004 roku przez firmę Intel jako następca standardu ATX.
+                            Zmiany dotyczą przede wszystkim takiego rozmieszczenia elementów płyty głównej, 
+                            aby strumień chłodzącego powietrza przepływał od przodu do tyłu obudowy komputera, 
+                            a wydzielające dużą ilość ciepła komponenty oddawały je w jego kierunku.
+                        </p>
+                        <section class="spcecial_img">
+                            <img src="images/btx.png" class="mobo_img" >
+                        </section>
+                    </ul>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <div id="score">
+            <h2>Wasze oceny</h2>
+            <div id="rev">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </div>  
+        </div>
+        <div id="contact">
+            <h2>Kontakt</h2>
+            <a href="mailto:xxx@gmail.com"><img src="images/koperta.png" id="phone"></a>
+        </div>
+        <div id="idea">
+            <h2>Szukasz ciekawych zestawów?</h2>
+            <a target="_blank" href="https://techlipton.pl/polecane-zestawy-komputerowe/"><img src="images/loupe.png" id="lupa"></a>
+        </div>
+    </footer>
+</body>
+</html>
